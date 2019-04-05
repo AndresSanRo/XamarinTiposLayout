@@ -10,6 +10,7 @@
             <Button Text="FlexLayout" x:Name="btnFlex"/>
             <Button Text="AbsoluteLayout" x:Name="btnAbsolute"/>
             <Button Text="ScrollView" x:Name="btnScroll"/>
+            <Button Text="Collatz" x:Name="btnCollatz"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

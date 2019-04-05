@@ -24,6 +24,8 @@ namespace TiposLayout
                 await Navigation.PushAsync(new CodeViews.FlexLayoutView());
             this.btnAbsolute.Clicked += async (sender, args) =>
                 await Navigation.PushAsync(new AbsoluteLayoutView());
+            this.btnCollatz.Clicked += async (sender, args) =>
+                await Navigation.PushAsync(new CodeViews.Collatz());
         }
     }
 }

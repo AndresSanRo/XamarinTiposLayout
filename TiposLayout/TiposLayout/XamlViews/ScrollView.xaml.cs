@@ -14,7 +14,7 @@ namespace TiposLayout.XamlViews
 	{
 		public ScrollView ()
 		{
-			InitializeComponent ();
+			InitializeComponent ();            
 		}
 	}
 }
