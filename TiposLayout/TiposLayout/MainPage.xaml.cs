@@ -17,7 +17,7 @@ namespace TiposLayout
             this.btnStack.Clicked += async (sender, args) => 
                 await Navigation.PushAsync(new CodeViews.StackLayoutView());
             this.btnFrame.Clicked += async (sender, args) =>
-                await Navigation.PushAsync(new FrameView());
+                await Navigation.PushAsync(new CodeViews.FrameView());
             this.btnScroll.Clicked += async (sender, args) =>
                 await Navigation.PushAsync(new XamlViews.ScrollView());
             this.btnFlex.Clicked += async (sender, args) =>
