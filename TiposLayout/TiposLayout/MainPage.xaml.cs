@@ -15,6 +15,14 @@ namespace TiposLayout
             InitializeComponent();
             this.btnStack.Clicked += async (sender, args) => 
                 await Navigation.PushAsync(new StackLayoutView());
+            this.btnFrame.Clicked += async (sender, args) =>
+                await Navigation.PushAsync(new FrameView());
+            this.btnScroll.Clicked += async (sender, args) =>
+                await Navigation.PushAsync(new XamlViews.ScrollView());
+            this.btnFlex.Clicked += async (sender, args) =>
+                await Navigation.PushAsync(new FlexLayoutView());
+            this.btnAbsolute.Clicked += async (sender, args) =>
+                await Navigation.PushAsync(new AbsoluteLayoutView());
         }
     }
 }
