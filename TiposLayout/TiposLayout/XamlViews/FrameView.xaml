@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TiposLayout.XamlViews.FrameView">
+    <ContentPage.Content>
+        <StackLayout Margin="0, 40, 0, 0">
+            <Label Text="Frame"
+                FontSize="40"
+                HorizontalOptions="CenterAndExpand" />
+            <Frame OutlineColor="OrangeRed" VerticalOptions="StartAndExpand">
+                <Label FontSize="20" 
+                       Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce gravida pellentesque commodo. Proin nec aliquet sapien, vitae facilisis tortor. Pellentesque fermentum nibh ante, id pulvinar augue accumsan eu. Nam eros erat, hendrerit eu suscipit sed, efficitur nec est. Pellentesque lobortis dolor enim, eget aliquet odio aliquam sit amet. Pellentesque vel nisl ipsum. Aenean ornare, metus non pretium cursus, sapien eros tincidunt mauris, ultrices aliquet ante nisl quis turpis. Pellentesque pretium erat tempor libero malesuada, varius finibus ex iaculis. Aenean rhoncus felis ac diam fermentum auctor. Vivamus nec lacinia leo. Etiam sit amet erat imperdiet, dictum ligula id, eleifend lectus. Sed eleifend eleifend orci id maximus. Quisque sit amet sapien velit." 
+                       TextColor="BlueViolet"/>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
