@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TiposLayout.XamlViews;
+using TiposLayout.CodeViews;
 using Xamarin.Forms;
 
 namespace TiposLayout
@@ -14,7 +15,7 @@ namespace TiposLayout
         {
             InitializeComponent();
             this.btnStack.Clicked += async (sender, args) => 
-                await Navigation.PushAsync(new StackLayoutView());
+                await Navigation.PushAsync(new CodeViews.StackLayoutView());
             this.btnFrame.Clicked += async (sender, args) =>
                 await Navigation.PushAsync(new FrameView());
             this.btnScroll.Clicked += async (sender, args) =>
