@@ -10,8 +10,8 @@ namespace TiposLayout
         public App()
         {
             InitializeComponent();
-
-            MainPage = new MainPage();
+            //Así añadimos navegación entre las páginas
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()

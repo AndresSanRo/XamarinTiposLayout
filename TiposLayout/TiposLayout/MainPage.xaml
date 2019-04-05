@@ -3,12 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:TiposLayout"
              x:Class="TiposLayout.MainPage">
-
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
-
+    <ContentPage.Content>
+        <StackLayout Margin="0, 40, 0, 0">
+            <Button Text="StackLayout" x:Name="btnStack"/>
+            <Button Text="Frame" x:Name="btnFrame"/>
+            <Button Text="FlexLayout" x:Name="btnFlex"/>
+            <Button Text="AbsoluteLayout" x:Name="btnAbsolute"/>
+            <Button Text="ScrollView" x:Name="btnScroll"/>
+        </StackLayout>
+    </ContentPage.Content>
 </ContentPage>
