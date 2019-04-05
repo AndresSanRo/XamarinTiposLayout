@@ -21,7 +21,7 @@ namespace TiposLayout
             this.btnScroll.Clicked += async (sender, args) =>
                 await Navigation.PushAsync(new CodeViews.ScrollViewPage());
             this.btnFlex.Clicked += async (sender, args) =>
-                await Navigation.PushAsync(new FlexLayoutView());
+                await Navigation.PushAsync(new CodeViews.FlexLayoutView());
             this.btnAbsolute.Clicked += async (sender, args) =>
                 await Navigation.PushAsync(new AbsoluteLayoutView());
         }
