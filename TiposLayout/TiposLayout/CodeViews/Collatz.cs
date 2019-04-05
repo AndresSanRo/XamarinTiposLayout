@@ -10,8 +10,7 @@ namespace TiposLayout.CodeViews
 	public class Collatz : ContentPage
 	{
         int num;
-        List<int> steps;
-        Entry entryCollatz;
+        List<int> steps;        
         ScrollView scrollCollatz;
         public Collatz ()
 		{
