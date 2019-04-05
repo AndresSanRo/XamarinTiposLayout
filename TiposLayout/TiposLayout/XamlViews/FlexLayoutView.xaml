@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TiposLayout.XamlViews.FlexLayoutView">
+    <ContentPage.Content>
+        <StackLayout Margin="0, 40, 0, 0">
+            <Label Text="Flex"
+                FontSize="40"
+                HorizontalOptions="CenterAndExpand" />
+            <FlexLayout AlignItems="Center" Direction="Column" JustifyContent="Start">
+                <Label Text="Control 1 en flex"/>
+                <Button Text="Botón nuevo"/>
+                <Image Source="https://pbs.twimg.com/media/CrmcAkBW8AA-gTX.jpg" 
+                       WidthRequest="200"
+                       HeightRequest="200"/>
+                <Entry Text="Caja de texto"/>
+            </FlexLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
